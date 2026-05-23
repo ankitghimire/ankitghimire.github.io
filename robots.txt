@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /build/
+
+# Allow search engines to crawl CSS and JS
+Allow: /*.css
+Allow: /*.js
+Allow: /fonts/
+Allow: /images/
+
+# Crawl delay (optional - prevents server overload)
+Crawl-delay: 1
+
+# Request rate (optional)
+Request-rate: 30/60
+
+# Sitemaps (add if you create one)
+# Sitemap: https://ankitghimire.github.io/sitemap.xml
