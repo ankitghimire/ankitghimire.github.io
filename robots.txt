@@ -19,5 +19,5 @@ Crawl-delay: 1
 # Request rate (optional)
 Request-rate: 30/60
 
-# Sitemaps (add if you create one)
-# Sitemap: https://ankitghimire.github.io/sitemap.xml
+# Sitemap
+Sitemap: https://ankitghimire.github.io/sitemap.xml
